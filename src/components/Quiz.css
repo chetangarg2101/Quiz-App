@@ -1,7 +1,14 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background: linear-gradient(to bottom, #d1c4e9, #7e57c2);
+}
+
 .container {
     width: 640px;
-    margin: auto;
-    margin-top: 100px;
     background: white;
     color: #262626;
     display: flex;
@@ -9,7 +16,7 @@
     gap: 20px;
     border-radius: 10px;
     padding: 40px 50px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Added shadow for better visual appeal */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .container hr {
